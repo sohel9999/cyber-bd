@@ -1,0 +1,235 @@
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+		.footer-nav li {
+			padding: 32px 10px 0px 17px;
+		}
+		.footer-nav ul li a{
+    		color: white;
+    	}
+    	.footer-nav h3{
+    		padding: 19px 14px;
+    		color: white;
+    	}
+    	.footer-right img{
+    		padding: 39px 0px;
+    	}
+	
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+		.service-one{
+			width: 31%;
+			padding: 0px;
+		}
+		.footer-nav li {
+			padding: 32px 10px 0px 17px;
+		}
+		.footer-nav ul li a{
+    		color: white;
+    	}
+    	.footer-nav h3{
+    		padding: 19px 14px;
+    		color: white;
+    	}
+    	.footer-right img{
+    		padding: 39px 0px;
+    	}
+					
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+		.logo{
+			width: 35%;
+		}
+		.header-nav{
+			width: 65%;
+		}
+		.header-nav ul li{
+			padding: 0 0 0 5px;
+		}
+		.bannar-1{
+			width: 100%;
+		}
+		.service-one{
+				width: 100%;
+			    padding: 29px 0px;
+    			border-bottom: 2px solid white;
+		}
+		.photo{
+			width: 14%;
+		}
+		.text{
+			width: 50%;
+		}
+		.address-one{
+			width: 36%;
+		}
+		.testimonial-one{
+			width: 56%;
+		}
+		.apps-icon{
+			width: 100%;
+		}
+		.icon {
+    		width: 23%}
+    	.apps{
+    		width: 50%;
+    	}
+    	.footer-nav li{
+    		padding: 0 0 0 10px;
+    	}
+    	.footer-nav ul li a{
+    		color: white;
+    	}
+    	.footer-nav h3{
+    		padding: 18px 6px;
+    		color: white;
+    	}
+    	.footer-right{
+    		width: 45%;
+    	}
+    	.footer-right img {
+    		padding: 25px;
+    	}
+
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+
+		.header-nav ul li{
+			padding: 0 0 0 10px;
+		}
+		.bannar-1{
+			width: 100%;
+		}
+		.bannar-1 h1{
+			
+		}
+		.service-one{
+				width: 100%;
+			    padding: 29px 0px;
+    			border-bottom: 2px solid white;
+		}
+		.photo{
+			width: 14%;
+		}
+		.text{
+			width: 50%;
+		}
+		.address-one{
+			width: 36%;
+		}
+		.testimonial-one{
+			width: 56%;
+		}
+		.apps-icon{
+			width: 100%;
+		}
+		.icon {
+    		width: 23%}
+    	.apps{
+    		width: 50%;
+    	}
+    	.footer-nav li{
+    		padding: 0 0 0 10px;
+    	}
+    	.footer-nav ul li a{
+    		color: white;
+    	}
+    	.footer-nav h3{
+    		padding: 18px 6px;
+    		color: white;
+    	}
+    	.footer-right{
+    		width: 45%;
+    	}
+    	.footer-right img {
+    		padding: 25px;
+    	}
+
+
+		}
+
+
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+		
+		.header-nav{
+			display: none;
+		}
+		.logo{
+			width: 60%;
+		}
+		.button-ham{
+			float: right;
+    		padding: 37px 0px;
+    	}
+    	.bannar-section{
+    		padding: 35px 0px;
+
+    	}
+
+		.bannar-1 {
+   			 width: 100%;
+    		display: inline-block;
+    		margin-top: 20px;}
+    	.bannar-1 h2 {
+    		font-size: 25px;
+    		text-align: center;}
+    		.bannar-1 h1{
+    			text-align: center;
+    			font-size: 21px;}
+    		.bannar-1 p{
+    			text-align: justify;
+    			font-size: 15px;
+    		}
+    		.bannar-1 button{
+    			margin-left: 100px;
+    		}
+			.service-one{
+				width: 100%;
+				padding: 0px 0px;
+			}
+			.photo{
+				width: 100%;
+				margin-left: 136px;
+			}
+			.text{
+				width: 100%;
+    			float: left;
+   			    padding: 30px 0;
+    			text-align: center}
+    		.address-one{
+    			width: 40%;
+    		}
+    		.testimonial-one{
+    			width: 48%;
+    		}
+    		.apps-icon{
+    			width: 100%;
+    		}
+    		.footer-nav{
+    			display: none;
+    		}
+    		.footer-right{
+    			width: 100%
+    		}
+    		.footer-right img{
+    			width: 100%;
+    			padding: 0px;
+    		}
+			}
+    		
+
+
+@media (min-width: 575.98px) {
+	.button-ham{
+		
+		display: none;
+	}
+}
